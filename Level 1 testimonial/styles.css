@@ -1,0 +1,64 @@
+/*Basic colours*/
+/*Mixins*/
+body {
+  background: #c3cfe2;
+  color: black;
+  font-family: Verdana, sans-serif;
+  padding: 30px 30px 30px 30px;
+}
+
+.content {
+  background: #fff;
+  border-radius: 25px 25px 0px 0px;
+  -webkit-box-shadow: 1px 5px 5px 0px #75787e;
+          box-shadow: 1px 5px 5px 0px #75787e;
+  padding: 25px 25px 100px 25px;
+  height: auto;
+}
+
+.content__image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: auto;
+}
+
+.content__image--style {
+  background: #fff;
+  border-radius: 50%;
+  width: 90px;
+  padding: 5px;
+  margin: -75px auto -75px auto;
+}
+
+.content__p {
+  font-size: 1.4em;
+  margin-top: 10px;
+  font-weight: lighter;
+  color: #706a6a;
+}
+
+.footer {
+  background: #686de0;
+  border-radius: 0px 0px 25px 25px;
+  -webkit-box-shadow: 1px 5px 5px 0px #75787e;
+          box-shadow: 1px 5px 5px 0px #75787e;
+  text-align: center;
+  padding: 75px 15px 50px 15px;
+  height: 80px;
+}
+
+.footer__p {
+  font-size: 1.5em;
+  font-weight: lighter;
+  color: whitesmoke;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #adafe9;
+}
+/*# sourceMappingURL=styles.css.map */

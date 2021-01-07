@@ -1,0 +1,13 @@
+/*Basic colours*/
+$background-grey: #c3cfe2;
+$background-purple: #686de0;
+$background-white: #fff;
+
+/*Mixins*/
+
+@mixin flexcenter {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    
+}

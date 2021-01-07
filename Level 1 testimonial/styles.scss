@@ -1,0 +1,55 @@
+@import './variables';
+
+body {
+    background: $background-grey;
+    color: black;
+    font-family: Verdana, sans-serif;
+    padding: 30px 30px 30px 30px;
+}
+
+.content {
+    background: $background-white;
+    border-radius: 25px 25px 0px 0px;
+    box-shadow: 1px 5px 5px 0px #75787e;
+    padding: 25px 25px 100px 25px;
+    height: auto;
+    
+    &__image {
+        @include flexcenter ();
+    
+        &--style {
+           background: $background-white;
+           border-radius: 50%;
+           width: 90px;
+           padding: 5px;
+           margin: -75px auto -75px auto;
+           
+        }
+    }
+    
+    &__p {
+        font-size: 1.4em;
+        margin-top: 10px;
+        font-weight: lighter;
+        color: rgb(112, 106, 106);
+    }
+}
+
+.footer {
+    background: $background-purple;
+    border-radius: 0px 0px 25px 25px;
+    box-shadow: 1px 5px 5px 0px #75787e;
+    text-align: center;
+    padding: 75px 15px 50px 15px;
+    height: 80px;
+    &__p {
+        font-size: 1.5em;
+        font-weight: lighter;
+        color: whitesmoke;
+    }
+    &__link {
+        text-decoration: none;
+        color: #adafe9;
+
+    }
+}
